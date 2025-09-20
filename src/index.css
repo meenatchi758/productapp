@@ -1,0 +1,99 @@
+/* Container */
+div {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+}
+
+/* Headings */
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"] {
+  padding: 8px 12px;
+  margin: 8px 8px 8px 0;
+  border: 1.5px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  width: calc(33% - 12px); /* three inputs in one row */
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  margin: 8px 8px 8px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Specific button colors */
+button:nth-child(odd) {
+  background-color: #007bff;
+  color: white;
+}
+
+button:nth-child(even) {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Product list */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+li strong {
+  font-size: 18px;
+}
+
+li p {
+  margin: 6px 0 0;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Edit mode inputs */
+li input[type="text"],
+li input[type="number"] {
+  width: auto;
+  margin-right: 8px;
+}

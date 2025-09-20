@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 10.99,
+      "description": "This is a product description"
+    },
+    {
+      "id": "2",
+      "name": "Mango",
+      "price": 20.99,
+      "description": "Sweet"
+    },
+    {
+      "id": "7216",
+      "name": "Apple",
+      "price": 800,
+      "description": "good tast"
+    }
+  ]
+}
